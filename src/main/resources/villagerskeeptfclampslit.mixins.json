@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.dudebehinddude.villagerskeeptfclampslit.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "villagerskeeptfclampslit.refmap.json",
+  "mixins": [
+    "TFCLampBlock",
+    "TFCLampBlockEntity"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
